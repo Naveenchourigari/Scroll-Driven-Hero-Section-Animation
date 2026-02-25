@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* HERO SECTION */
+
+.hero {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.headline {
+  font-size: 3rem;
+  letter-spacing: 0.6em;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 2rem;
+}
+
+.stat p {
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+/* Scroll Visual */
+
+.visual {
+  position: absolute;
+  bottom: 40px;
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(135deg, #8b5cf6, #ec4899);
+  border-radius: 50%;
+  filter: blur(40px);
+  opacity: 0.8;
+}
+
+/* Extra Scroll Section */
+
+.extra {
+  height: 200vh;
+  background: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
